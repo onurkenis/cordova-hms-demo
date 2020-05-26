@@ -1,0 +1,10 @@
+{
+  "android": {
+      "release": {
+        "keystore": "platforms/android/CordovaAndroidQuickStart.jks",
+        "storePassword": "12345678",
+        "alias": "key0",
+        "password" : "12345678"
+      }
+  }
+}

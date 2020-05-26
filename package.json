@@ -1,0 +1,32 @@
+{
+  "name": "com.onurkenis.cordovahmsdemo",
+  "displayName": "CordovaHmsDemo",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-plugin-hms-analytics": "file:hms_kits/cordova-plugin-hms-analytics",
+    "cordova-plugin-hms-location": "file:hms_kits/cordova-plugin-hms-location",
+    "cordova-plugin-hms-push": "file:hms_kits/cordova-plugin-hms-push"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-hms-analytics": {},
+      "cordova-plugin-hms-push": {},
+      "cordova-plugin-hms-location": {}
+    },
+    "platforms": []
+  }
+}

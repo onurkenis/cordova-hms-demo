@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-hms-analytics",
+  "version": "4.0.3",
+  "description": "Huawei Analytics Cordova Plugin",
+  "cordova": {
+    "id": "cordova-plugin-hms-analytics",
+    "platforms": []
+  },
+  "keywords": [
+    "cordova",
+    "huaweianalytics",
+    "hianalytics",
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "files": [
+    "hooks/**",
+    "resources/**",
+    "src/**",
+    "www/**",
+    "LICENCE",
+    "package.json",
+    "plugin.xml",
+    "README.md"
+  ]
+}
